@@ -1,0 +1,134 @@
+body{
+position: relative;
+ margin:0px;
+ padding-bottom: 6em;
+ width:100%;
+ min-height: 100%;
+ box-sizing:inherit;
+}
+html{
+    height:100%;
+    box-sizing: border-box;
+}
+
+.continue{
+ 
+  width:100%;
+  background-color: rgb(44, 13, 135);
+  display: flex;
+  justify-content: space-between;
+
+}
+
+@media (max-width:500px) {
+    
+    .continue{
+        display: block;
+        text-align: center;
+
+    } 
+
+}
+
+.child-continue{
+    padding-left:1em;
+}
+
+.name{
+    font-weight: 100px;
+    color:white; 
+}
+
+.address{
+    color:yellow;
+    font-weight: bold;
+    ;
+}
+.profilepic{
+    borfder-radius:5em;
+
+   
+
+}
+
+.contact{
+ color:white;
+}
+.mail{
+    color:white;
+}
+
+.profileexperience{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:white;
+    padding-top:2em; 
+    
+}
+@media (max-width:450px){
+    .profileexperience{
+        display: inline;
+        text-align: center;
+        align-items: center;
+    }
+    
+}
+
+.experience{
+    background-color:rgb(56, 73, 135);
+    width:25%;
+
+    
+}
+@media (max-width:500px) {
+    .experience{
+        background-color:rgb(56, 73, 135);
+        width:auto;
+    }
+  
+    
+}
+
+@media (max-width:450px){
+    .profile{
+        width:auto;
+    }
+}
+.profile{
+    padding-left:3em;
+    width:60%;
+}
+.info{
+   width:6em;
+   height:2em;
+   background-color: blue;
+   border-radius: 1em;
+   color:white;
+   
+
+}
+.info a{
+    color: white;
+    text-align: center;
+    margin-top:8px;
+    margin-left:8px;
+}
+hr{
+    height:1em;
+    width: auto;;
+    background-color:red;
+} 
+
+.small{
+    position:absolute;
+    margin:0px;
+    padding:0px;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:gainsboro;
+    justify-content: center;
+   
+
+}
